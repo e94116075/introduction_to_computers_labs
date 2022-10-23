@@ -95,7 +95,7 @@ cat = Cats(8.2, 60)
 cat.printf(40, 7, 1)
 
 shiba1 = Shiba(5, 70)
-shiba1.printf(20, 12, 3)
+shiba1.printf(20, 10, 3)
 shiba1.mood_constraint(90)
 shiba1.mood_constraint(300)
 
