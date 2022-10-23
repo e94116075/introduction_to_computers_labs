@@ -98,4 +98,3 @@ shiba1 = Shiba(5, 70)
 shiba1.printf(20, 10, 3)
 shiba1.mood_constraint(90)
 shiba1.mood_constraint(300)
-
