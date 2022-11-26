@@ -1,7 +1,6 @@
 import os as o 
 n=o.getcwd()
 list1=n.split(o.sep)
-print(type(list1))
 list1.remove('')
 print(list1)
 print(o.listdir('/home/E94116075/'))
