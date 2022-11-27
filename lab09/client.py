@@ -7,15 +7,15 @@ s.connect((HOST, PORT))
 while a==True:
     print('connected to ' + str(HOST)+":"+str(PORT))
     while True:
-        outdata = input('please input message: ')
+        outdata = input("send: ")
         if str(outdata) == 'EXIT': # connection closed
             a=False
             s.close()
             print('closed connection.')
             break
-        print('send: ' + outdata)
         s.send(outdata.encode())
     
         indata = s.recv(1024)
         
         print(indata.decode())
+
