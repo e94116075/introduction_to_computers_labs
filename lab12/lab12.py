@@ -1,3 +1,5 @@
+#台南市公有免費停車場
+#https://data.gov.tw/dataset/102775
 import pymysql
 import requests
 r = requests.get('https://citypark.tainan.gov.tw/App/parking.ashx?verCode=5177E3481D&type=1&ftype=1&exportTo=2')#得到這個網址的資料
