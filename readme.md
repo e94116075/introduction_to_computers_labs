@@ -1,5 +1,7 @@
 # lab簡介
 lab07以前主要為Python基本操作，以後為應用，如資料視覺化、socket programming、AI手寫數字辨識等
+* lab02
+  - 建立一個名為lab02的資料夾，內有一個檔案名稱為學號的檔案，內容隨意但不可空白
 * lab03
   - 利用input/output if/else 判斷奇偶數並輸出學號  
 * lab04
