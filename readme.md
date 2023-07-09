@@ -47,10 +47,11 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
     | Cats	| +0.1 kg	| +1 |
     
     當我們帶Animals去散步(walk) 時，會影響到Animals的weight和mood，如下表所示：  
-   | Aniamls	| weight | mood |
+   | Aniamls	| weight | mood |  
    | ---- | ---- | ---- |       
    |  Dogs	| -0.2 kg	| +2 |   
-  | Cats	| -0.1 kg	| -1 |    
+  | Cats	| -0.1 kg	| -1 |
+
     當我們帶Animals去洗澡(bath) 時，會影響到Animals的mood，如下表所示：  
     | Aniamls	| weight | mood |
        | ---- | ---- | ---- |      
