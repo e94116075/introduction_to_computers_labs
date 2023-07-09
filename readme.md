@@ -36,7 +36,8 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
     | object | Animals weight	| mood |
       | ---- | ---- | ---- |      
     | Dogs	| 4.8 kg | 65 |  
-    | Cats	| 8.2 kg | 60 | 
+    | Cats	| 8.2 kg | 60 |
+  
     dog = Dogs(4.8, 65)  
     cat = Cats(8.2, 60)  
     當我們帶Animals去吃飯(feed) 時，會影響到Animals的weight和mood，如下表所示：  
