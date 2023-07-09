@@ -72,7 +72,12 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
 * lab09_plus
   -讓Server可以同時服務多個Client(上述Server同時間只能服務一個Client)
 * lab10
-  -完成一個web server，並且具有以下API  
+  -完成一個web server，並且具有以下API
+  |  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+
 |api名稱	|method	|傳入資料	|功能|
 | :-----| :---- | :----| :----|
 | /GET	| 無 |  | 接收get request後 回傳ok (一定要是’ok’！不能是OK, okay或是多任何空格)|  
