@@ -75,8 +75,8 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
   -完成一個web server，並且具有以下API  
 |api名稱	|method	|傳入資料	|功能|
 | :-----| :---- | :----| :----|
-|/	GET	|無	| |接收get request後 回傳ok (一定要是’ok’！不能是OK, okay或是多任何空格)|  
-|/set	|POST		||新增一個 key-value pair 並回傳’set success’，若key已存在 則回傳’key exist’|  
+| /GET	| 無 |  | 接收get request後 回傳ok (一定要是’ok’！不能是OK, okay或是多任何空格)|  
+| /set	| POST		|  | 新增一個 key-value pair 並回傳’set success’，若key已存在 則回傳’key exist’ |  
 |/key_list	|GET	|無|	回傳所有存在的 key (記得要轉為str格式)|
 |/get_value/{key}	|GET|	無|	回傳指定的 key 的資訊，若找不到就回傳’key not found’|  
 |/update_value|	POST		| |更新指定的 key 的資訊並回傳’update success’，若 key 不存在 則回傳’key does not exist’|  
