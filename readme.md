@@ -70,9 +70,9 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
 3. Socket programming (70%, 要先完成第2題才會算分)
     - 請寫一個TCP Socket，功能：Server接收到Client傳來的訊息後，會回覆一模一樣的訊息給Client
 * lab09_plus
-  -讓Server可以同時服務多個Client(上述Server同時間只能服務一個Client)
+  - 讓Server可以同時服務多個Client(上述Server同時間只能服務一個Client)
 * lab10
-  -完成一個web server，並且具有以下API
+  - 完成一個web server，並且具有以下API
   
 |api名稱	|method	|傳入資料	|功能|
 | :-----| :---- | :----| :----|
@@ -91,7 +91,7 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
   - https://drive.google.com/file/d/1-4GXpX-f8nPVIarpjvgYaJLWRuVzoQcI/view
 * lab12
   - 安裝PyMySQL
-  - 請至政府資料開放平臺(https://data.gov.tw/)選擇一個、資料集
+  - 請至政府資料開放平臺(https://data.gov.tw/) 選擇一個、資料集
 選擇類別、選擇資料集、點選JSON
 - 用phpMyAdmin在資料庫中建立新的資料表，並新增至少四個欄位，使用PyMySQL與資料庫做溝通，最後根據API新增10筆以上的資料
 * lab13
