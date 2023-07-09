@@ -93,7 +93,7 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
   - 安裝PyMySQL
   - 請至政府資料開放平臺(https://data.gov.tw/) 選擇一個、資料集
 選擇類別、選擇資料集、點選JSON
-- 用phpMyAdmin在資料庫中建立新的資料表，並新增至少四個欄位，使用PyMySQL與資料庫做溝通，最後根據API新增10筆以上的資料
+  - 用phpMyAdmin在資料庫中建立新的資料表，並新增至少四個欄位，使用PyMySQL與資料庫做溝通，最後根據API新增10筆以上的資料
 * lab13
   - 下載Temperature.txt到lab13資料夾中，與lab13.py一樣路徑，請搜尋python read txt file來讀取Temperature.txt
   - 將歷年的台南氣溫資料用plt.plot()繪製成如下圖，儲存圖片命名為 lab13_01.png
@@ -101,6 +101,6 @@ hint: 可以自己建立一個年份的list，利用for迴圈可以提高撰寫�
   - 分別計算每個月份每年的氣溫平均值，把12個月份分別的的氣溫平均值繪製成一張表
 計算每個月分氣溫的總平均值(全部的平均)，在圖表上繪製一條水平虛線，並且標示總平均值的數字在須線上，儲存圖片命名為 lab13_02.png
   - 將前面兩張圖片使用subplot(1,2,x)畫在同一張圖片上，儲存圖片命名為 lab13_03.png
-* lab15
+* lab15  
   https://hackmd.io/@MCAS/Student_Lab15
   
