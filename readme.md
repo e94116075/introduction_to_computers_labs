@@ -73,11 +73,7 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
   -讓Server可以同時服務多個Client(上述Server同時間只能服務一個Client)
 * lab10
   -完成一個web server，並且具有以下API
-  |  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
-
+  
 |api名稱	|method	|傳入資料	|功能|
 | :-----| :---- | :----| :----|
 | /GET	| 無 |  | 接收get request後 回傳ok (一定要是’ok’！不能是OK, okay或是多任何空格)|  
@@ -86,7 +82,25 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
 |/get_value/{key}	|GET|	無|	回傳指定的 key 的資訊，若找不到就回傳’key not found’|  
 |/update_value|	POST		| |更新指定的 key 的資訊並回傳’update success’，若 key 不存在 則回傳’key does not exist’|  
 | /delete/{key}|	GET|	無	|刪除指定的 key 的資訊並回傳’delete success’，若找不到就回傳’key not found’|  
+* lab10_plus
+- 將所有輸入的 key-value pair儲存在本地的資料庫，不可存在ram中(即不可使用任何資料型態的變數來儲存)，方法隨意，可以用txt檔、資料庫等，當web server重新啟動時，可以讀取到過去建立的 key-value pair
+(須處理掉多餘的換行、空格等多餘字元)
 * lab11
+  - 假設有 N件工作 (Job)要處理，手邊有 N個人 (Agent)可以指派，每個人必須處       理任意一件工作，每個工作也必須被任意一個人處理，請問如何指派可使得總成本最低？
+  - 請使用input.json作為測資，形式為 dictionary，key 為題號，value 為測試的 input
+  - https://drive.google.com/file/d/1-4GXpX-f8nPVIarpjvgYaJLWRuVzoQcI/view
 * lab12
+  - 安裝PyMySQL
+  - 請至政府資料開放平臺(https://data.gov.tw/)選擇一個、資料集
+選擇類別、選擇資料集、點選JSON
+- 用phpMyAdmin在資料庫中建立新的資料表，並新增至少四個欄位，使用PyMySQL與資料庫做溝通，最後根據API新增10筆以上的資料
 * lab13
+  - 下載Temperature.txt到lab13資料夾中，與lab13.py一樣路徑，請搜尋python read txt file來讀取Temperature.txt
+  - 將歷年的台南氣溫資料用plt.plot()繪製成如下圖，儲存圖片命名為 lab13_01.png
+hint: 可以自己建立一個年份的list，利用for迴圈可以提高撰寫效率
+  - 分別計算每個月份每年的氣溫平均值，把12個月份分別的的氣溫平均值繪製成一張表
+計算每個月分氣溫的總平均值(全部的平均)，在圖表上繪製一條水平虛線，並且標示總平均值的數字在須線上，儲存圖片命名為 lab13_02.png
+- 將前面兩張圖片使用subplot(1,2,x)畫在同一張圖片上，儲存圖片命名為 lab13_03.png
 * lab15
+  https://hackmd.io/@MCAS/Student_Lab15
+  
