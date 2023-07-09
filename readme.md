@@ -44,7 +44,8 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
     | Aniamls	| weight | mood |
        | ---- | ---- | ---- |        
     | Dogs	| +0.2 kg | 	+1 |    
-    | Cats	| +0.1 kg	| +1 |   
+    | Cats	| +0.1 kg	| +1 |
+    
     當我們帶Animals去散步(walk) 時，會影響到Animals的weight和mood，如下表所示：  
    | Aniamls	| weight | mood |
    | ---- | ---- | ---- |       
@@ -54,13 +55,15 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
     | Aniamls	| weight | mood |
        | ---- | ---- | ---- |      
     | Dogs	| 不影響	 | -2 |    
-    | Cats	| 不影響	 | -2 |    
+    | Cats	| 不影響	 | -2 |
+    
     Quesion:  
     假設這一個月，Animals吃飯、散步、洗澡的次數如下表所示， 請輸出dog和cat現在的體重和心情分別為何。  
     | object	| n_feed	| n_walk | n_bath |
        | ---- | ---- | ---- | ---- |          
     | dog	| 18 | 	10 |	4 |    
-    | cat| 40| 7| 1 |    
+    | cat| 40| 7| 1 |
+    
 * lab08
   - 讀取當前工作目錄並存成list，print在終端機裡，然後將裡面的元素一行一行寫入文字檔
   - 讀取 ‘/home/學號’ 目錄下所有檔案和資料夾，print在終端機裡，然後將裡面的元素一行一行寫入文字檔
