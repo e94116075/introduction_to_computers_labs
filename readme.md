@@ -67,7 +67,7 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
     - 將手機連上AP，測試是否可以連到手機
     - 給電腦設定一個固定IP:10.3.141.xx(與原本DHCP配發的IP相同即可)
     ，查看從此電腦(10.3.141.xx)到google.com的路徑為何
-3. Socket programming (70%, 要先完成第2題才會算分)
+  3. Socket programming (70%, 要先完成第2題才會算分)
     - 請寫一個TCP Socket，功能：Server接收到Client傳來的訊息後，會回覆一模一樣的訊息給Client
 * lab09_plus
   - 讓Server可以同時服務多個Client(上述Server同時間只能服務一個Client)
@@ -83,7 +83,7 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
 |/update_value|	POST		| |更新指定的 key 的資訊並回傳’update success’，若 key 不存在 則回傳’key does not exist’|  
 | /delete/{key}|	GET|	無	|刪除指定的 key 的資訊並回傳’delete success’，若找不到就回傳’key not found’|  
 * lab10_plus
-- 將所有輸入的 key-value pair儲存在本地的資料庫，不可存在ram中(即不可使用任何資料型態的變數來儲存)，方法隨意，可以用txt檔、資料庫等，當web server重新啟動時，可以讀取到過去建立的 key-value pair
+  - 將所有輸入的 key-value pair儲存在本地的資料庫，不可存在ram中(即不可使用任何資料型態的變數來儲存)，方法隨意，可以用txt檔、資料庫等，當web server重新啟動時，可以讀取到過去建立的 key-value pair
 (須處理掉多餘的換行、空格等多餘字元)
 * lab11
   - 假設有 N件工作 (Job)要處理，手邊有 N個人 (Agent)可以指派，每個人必須處       理任意一件工作，每個工作也必須被任意一個人處理，請問如何指派可使得總成本最低？
@@ -100,7 +100,7 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
 hint: 可以自己建立一個年份的list，利用for迴圈可以提高撰寫效率
   - 分別計算每個月份每年的氣溫平均值，把12個月份分別的的氣溫平均值繪製成一張表
 計算每個月分氣溫的總平均值(全部的平均)，在圖表上繪製一條水平虛線，並且標示總平均值的數字在須線上，儲存圖片命名為 lab13_02.png
-- 將前面兩張圖片使用subplot(1,2,x)畫在同一張圖片上，儲存圖片命名為 lab13_03.png
+  - 將前面兩張圖片使用subplot(1,2,x)畫在同一張圖片上，儲存圖片命名為 lab13_03.png
 * lab15
   https://hackmd.io/@MCAS/Student_Lab15
   
