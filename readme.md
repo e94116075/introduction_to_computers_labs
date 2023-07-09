@@ -33,26 +33,31 @@ lab07以前主要為Python基本操作，以後為應用，如資料視覺化、
     walk()：散步  
     bath()：洗澡  
     分別建立一個dog和cat的物件，初始值如下：  
-    | object | Animals weight	| mood |  
+    | object | Animals weight	| mood |
+      | ---- | ---- | ---- |      
     | Dogs	| 4.8 kg | 65 |  
     | Cats	| 8.2 kg | 60 | 
     dog = Dogs(4.8, 65)  
     cat = Cats(8.2, 60)  
     當我們帶Animals去吃飯(feed) 時，會影響到Animals的weight和mood，如下表所示：  
-    | Aniamls	| weight | mood |     
+    | Aniamls	| weight | mood |
+       | ---- | ---- | ---- |        
     | Dogs	| +0.2 kg | 	+1 |    
     | Cats	| +0.1 kg	| +1 |   
     當我們帶Animals去散步(walk) 時，會影響到Animals的weight和mood，如下表所示：  
-   | Aniamls	| weight | mood |     
+   | Aniamls	| weight | mood |
+   | ---- | ---- | ---- |       
    |  Dogs	| -0.2 kg	| +2 |   
   | Cats	| -0.1 kg	| -1 |    
     當我們帶Animals去洗澡(bath) 時，會影響到Animals的mood，如下表所示：  
-    | Aniamls	| weight | mood |     
+    | Aniamls	| weight | mood |
+       | ---- | ---- | ---- |      
     | Dogs	| 不影響	 | -2 |    
     | Cats	| 不影響	 | -2 |    
     Quesion:  
     假設這一個月，Animals吃飯、散步、洗澡的次數如下表所示， 請輸出dog和cat現在的體重和心情分別為何。  
-    | object	| n_feed	| n_walk | n_bath |   
+    | object	| n_feed	| n_walk | n_bath |
+       | ---- | ---- | ---- | ---- |          
     | dog	| 18 | 	10 |	4 |    
     | cat| 40| 7| 1 |    
 * lab08
